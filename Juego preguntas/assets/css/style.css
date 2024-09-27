@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white; /* Cambiar a blanco */
+    background-image: url('pre.jpg'); /* Añadir una imagen si deseas */
+    background-size: cover; /* Para que cubra todo el fondo */
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    text-align: center; /* Centra el texto */
+}
+#container {
+    text-align: center;
+}
+.container {
+    position: relative; /* Para poder usar el fondo blanco en un contexto relativo */
+    padding: 20px;
+    max-width: 600px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+#preguntaContainer, 
+#resultadoContainer, 
+#estadisticas {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con un poco de transparencia */
+    padding: 15px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar un efecto de profundidad */
+}
+canvas {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.hidden {
+    display: none;
+}
+
+#conteoContainer {
+    margin-top: 20px;
+}
+#estadisticas {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#estadisticas p {
+    margin: 5px 0;
+}

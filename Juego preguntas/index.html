@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntados con IA</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preguntados con IA</h1>
+        <div class="ruleta-container">
+            <canvas id="ruleta"></canvas>
+            <button id="girarBtn">Girar Ruleta</button>
+        </div>
+        
+        <div id="preguntaContainer" class="hidden">
+            <h2 id="categoriaDisplay"></h2>
+            <p id="preguntaDisplay"></p>
+            <div id="respuestasContainer"></div>
+        </div>
+
+        <div id="resultadoContainer" class="hidden">
+            <p id="resultadoDisplay"></p>
+        </div>
+
+        <div id="estadisticas">
+            <p>Respuestas Correctas: <span id="correctasCount">0</span></p>
+            <p>Respuestas Incorrectas: <span id="incorrectasCount">0</span></p>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
